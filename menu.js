@@ -73,7 +73,7 @@ exports.run = {
                   await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), ' © Rikaa bot by Faruqofc', null, button, {
                     document: true
             }, {
-                title: 'ılılılllıılılıllllıılılllıllı\nRIKKA BOT OFFICIAL',
+                title: 'ılılılllıılılıllllıılılllıllı\nGILZZ BOT OFFICIAL',
                 thumbnail: await Func.fetchBuffer(global.db.setting.cover),
                 fileName: `Berjalan : ${Func.toTime(process.uptime() * 1000)}\nVersion [ 0.0.5 ]`
             }),
