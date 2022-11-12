@@ -45,7 +45,7 @@ exports.run = {
             let buttons = [{
                urlButton: {
                         displayText: `OWNER`,
-                        url: `https://wa.me/84888725073?text=order+bot+bang`
+                        url: `https://wa.me/6285730794089?text=order+bot+bang`
                      }
                   },
                   {
@@ -73,7 +73,7 @@ exports.run = {
                   await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix),'© Powered By RIKKA BOT', null, button, {
                     document: true
             }, {
-                title: 'ılılılllıılılıllllıılılllıllı\nRIKKA BOT OFFICIAL',
+                title: 'ılılılllıılılıllllıılılllıllı\nGILZZ BOT OFFICIAL',
                 thumbnail: await Func.fetchBuffer(global.db.setting.cover),
                 fileName: `Berjalan : ${Func.toTime(process.uptime() * 1000)}\nVersion [ 0.0.5 ]`
             }),
