@@ -70,7 +70,7 @@ exports.run = {
                ]
             } else if (menuType == 2) {
                client.menu[id] = [
-                  await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix),'© Powered By RIKKA BOT', null, button, {
+                  await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix),'© Powered By GILZZ BOT', null, button, {
                     document: true
             }, {
                 title: 'ılılılllıılılıllllıılılllıllı\nGILZZ BOT OFFICIAL',
