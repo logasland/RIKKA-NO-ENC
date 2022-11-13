@@ -145,14 +145,14 @@ Socket = (...args) => {
          contextInfo: {
             mentions: parseMention(text),
             externalAdReply: {
-               title: '爪乇ㄥ•乃ㄖㄒ',
+               title: 'GILZZ BOTZ',
                mediaType: 2,
                mediaUrl: `https://instagram.com`,
                body: '',
                description: 'melbot',
                showAdAttribution: true,
                thumbnail: fs.readFileSync('./media/images/mel.jpg'),
-               sourceUrl: 'https://chat.whatsapp.com/L2hJAaHZYPHHkcjFsBr3vE'
+               sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
             }
          }
       }, {
@@ -179,7 +179,7 @@ Socket = (...args) => {
                description: 'melbot',
                showAdAttribution: true,
                thumbnail: fs.readFileSync('./media/images/mel.jpg'),
-               sourceUrl: 'https://chat.whatsapp.com/DX4ufmjrzzG1H4qJNVyo26'
+               sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
             }
          }
       }, {
@@ -206,7 +206,7 @@ Socket = (...args) => {
                description: 'RIKKA BOT',
                showAdAttribution: false,
                thumbnail: pic,
-               sourceUrl: 'https://wa.me/6285807264974?text=sewabot+bang'
+               sourceUrl: 'https://wa.me/6285730794089?text=sewabot+bang'
             }
          }
       }, {
@@ -232,7 +232,7 @@ Socket = (...args) => {
                mediaType: 2,
                showAdAttribution: true,
                thumbnail: await Func.fetchBuffer(pic),
-               sourceUrl: 'https://wa.me/6285807264974?text=bang+upgrade+premium+biar+unlimited+limit'
+               sourceUrl: 'https://wa.me/6285730794089?text=bang+upgrade+premium+biar+unlimited+limit'
             }
          }
       }, {
@@ -791,7 +791,7 @@ Socket = (...args) => {
                renderLargerThumbnail: true,
                thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
                thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
-               sourceUrl: 'https://chat.whatsapp.com/L2hJAaHZYPHHkcjFsBr3vE'
+               sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
             }
          }
       } : /video/.test(mime) ? {
@@ -912,7 +912,7 @@ Socket = (...args) => {
          title: opts && opts.title ? opts.title : '© RIKKA BOT',
          thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
          thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
-         sourceUrl: 'https://chat.whatsapp.com/L2hJAaHZYPHHkcjFsBr3vE'
+         sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
             }
          }
       } : /video/.test(mime) ? {
