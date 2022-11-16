@@ -6,7 +6,7 @@ exports.run = {
       client.sendMessageModify(m.chat, info(), m, {
             title: 'D O N A S I',
             largeThumb: true,
-            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/51269b4727fbf6ff01f3c.jpg')
+            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/445a853030c2c4e81cf08.jpg')
             })         
    },
    error: false,
