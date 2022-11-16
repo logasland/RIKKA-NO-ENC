@@ -82,7 +82,7 @@ Socket = (...args) => {
          contextInfo: {
             mentionedJid: parseMention(text),
             externalAdReply: {
-               title: properties.title || 'RIKKA BOT OFFICIAL',
+               title: properties.title || 'NARAA BOT OFFICIAL',
                body: properties.body || null,
                mediaType: 1,
                previewType: 0,
@@ -145,14 +145,14 @@ Socket = (...args) => {
          contextInfo: {
             mentions: parseMention(text),
             externalAdReply: {
-               title: 'GILZZ BOTZ',
+               title: 'NARAA BOTZ',
                mediaType: 2,
                mediaUrl: `https://instagram.com`,
                body: '',
-               description: 'melbot',
+               description: 'narbot',
                showAdAttribution: true,
                thumbnail: fs.readFileSync('./media/images/mel.jpg'),
-               sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
+               sourceUrl: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br'
             }
          }
       }, {
@@ -179,7 +179,7 @@ Socket = (...args) => {
                description: 'melbot',
                showAdAttribution: true,
                thumbnail: fs.readFileSync('./media/images/mel.jpg'),
-               sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
+               sourceUrl: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br'
             }
          }
       }, {
@@ -206,7 +206,7 @@ Socket = (...args) => {
                description: 'RIKKA BOT',
                showAdAttribution: false,
                thumbnail: pic,
-               sourceUrl: 'https://wa.me/6285730794089?text=sewabot+bang'
+               sourceUrl: 'https://wa.me/6288220924312?text=sewabot+bang'
             }
          }
       }, {
@@ -232,7 +232,7 @@ Socket = (...args) => {
                mediaType: 2,
                showAdAttribution: true,
                thumbnail: await Func.fetchBuffer(pic),
-               sourceUrl: 'https://wa.me/6285730794089?text=bang+upgrade+premium+biar+unlimited+limit'
+               sourceUrl: 'https://wa.me/6288220924312?text=bang+upgrade+premium+biar+unlimited+limit'
             }
          }
       }, {
@@ -334,7 +334,7 @@ Socket = (...args) => {
       let list = []
       contact.map(v => list.push({
          displayName: v.name,
-         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${v.name}\nORG:Owner RIKKA BOT\nTEL;type=CELL;type=VOICE;waid=${v.number}:${PhoneNumber('+' + v.number).getNumber('international')}\nEMAIL;type=Email:Rikkaaa/my.id\nURL;type=Website:https://Rikaaa@chiki.id\nADR;type=Location:;;🇰🇷 Korea;;\nOther:${v.about}\nEND:VCARD`
+         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${v.name}\nORG:Owner NARA BOT\nTEL;type=CELL;type=VOICE;waid=${v.number}:${PhoneNumber('+' + v.number).getNumber('international')}\nEMAIL;type=Email:Rikkaaa/my.id\nURL;type=Website:https://Rikaaa@chiki.id\nADR;type=Location:;;🇰🇷 Korea;;\nOther:${v.about}\nEND:VCARD`
       }))
       return client.sendMessage(jid, {
          contacts: {
@@ -780,18 +780,18 @@ Socket = (...args) => {
             url: file
          },
          headerType: 3,
-         fileName: opts && opts.fileName ? opts.fileName : 'RIKKA BOT',
+         fileName: opts && opts.fileName ? opts.fileName : 'NARA BOT',
          mimetype: 'application/vnd.ms-excel',
          pageCount: 1212,
          fileLength: '2022000000000000',
          contextInfo: {
             externalAdReply: {
                mediaType: 1,
-               title: opts && opts.title ? opts.title : '© RIKKA BOT',
+               title: opts && opts.title ? opts.title : '© NARAA BOT',
                renderLargerThumbnail: true,
                thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
                thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
-               sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
+               sourceUrl: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br'
             }
          }
       } : /video/.test(mime) ? {
@@ -849,7 +849,7 @@ Socket = (...args) => {
          mediaType: 2,
          renderLargerThumbnail: true,
          showAdAttribution: true,
-         title: opts && opts.title ? opts.title : '© RIKKA BOT',
+         title: opts && opts.title ? opts.title : '© NARA BOT',
          thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
          thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
          sourceUrl: 'https://youtu.be/xfrIkvtcqME'
@@ -912,7 +912,7 @@ Socket = (...args) => {
          title: opts && opts.title ? opts.title : '© RIKKA BOT',
          thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
          thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
-         sourceUrl: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
+         sourceUrl: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br'
             }
          }
       } : /video/.test(mime) ? {
