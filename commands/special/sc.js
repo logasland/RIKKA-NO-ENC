@@ -14,7 +14,7 @@ exports.run = {
 
 const buttonMessage = {
    caption: "*BIG THANKS TO*\n\n• wildan Izzuddin\n• acuy\n• faruq\n• mel\n• adara cantik\n• aprildv\n• DiaryNikii\n• All creator bot",
-   footer: 'Gilzz bot',
+   footer: 'NaRaa bot',
    buttons: buttons,
    document: {
        url: 'https://telegra.ph/file/b7ad2a779a31241f0af1a.jpg'
@@ -32,7 +32,7 @@ const buttonMessage = {
          showAdAttribution: true,
          title: `Script BOT? Klik ini\nAktif selama ${Func.toTime(process.uptime() * 1000)}`,
          thumbnail: await Func.fetchBuffer('https://telegra.ph/file/b7ad2a779a31241f0af1a.jpg'),
-         sourceUrl: 'https://wa.me/6285730794089?text=script+nya+pengen+dong+bang'
+         sourceUrl: 'https://wa.me/6288220924312?text=script+nya+pengen+dong+bang'
       }
    }
 }
