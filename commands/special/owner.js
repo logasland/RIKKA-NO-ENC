@@ -7,8 +7,8 @@ exports.run = {
       // if (command == 'owner') return client.reply(m.chat, `Interkasi owner dengan user via WhatsApp sudah tidak tersedia lagi, jika ingin upgrade premium atau ada hal penting lainnya silahkan kirim pesan melalui email dengan subjek *"MINT"*\n\n✉️ : contact@neoxr.my.id`, m)
       if (command == 'owner') {
          const contact = [{
-            name: 'Ragil gay',
-            number: '6285730794089'
+            name: 'Nasir Tea',
+            number: '6288220924312'
          }]
          const msg = await client.sendContact(m.chat, contact, m)
          await client.reply(m.chat, `Chat aja gausah sungkan" bang`, msg)
