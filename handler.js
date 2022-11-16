@@ -81,8 +81,8 @@ module.exports = async (client, m, chatUpdate) => {
          if (setting.groupmode && !isOwner && !isPrem) {
             if (!users.whitelist && m.text && (m.text.charAt(0) == myPrefix || Func.socmed(m.text)) && !/owner|premium|sewabot|batu|gunting|kertas/.test(m.text)) return client.sendMessageModify(m.chat, Func.texted('bold', `bot sedang dalam mode : khusus group*\n\nTidak bisa menggunakan bot di pesan pribadi\njika kamu ingin menggunakan di pesan pribadi\n*silahkan upgrade premium hanya 10rb*\nSilahkan ketik *.owner / .premium`), m, {
             largeThumb: true,
-            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0b59fd92c9a6bfdb200db.jpg'),
-            url: 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
+            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/1a1099cc17ac01b07d204.jpg'),
+            url: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br'
          })            
          }
          if (m.msg && m.msg.type == 0) {
