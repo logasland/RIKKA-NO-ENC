@@ -45,7 +45,7 @@ exports.run = {
             let buttons = [{
                urlButton: {
                         displayText: `OWNER`,
-                        url: `https://wa.me/6285730794089?text=order+bot+bang`
+                        url: `https://wa.me/6288220924312?text=order+bot+bang`
                      }
                   },
                   {
@@ -70,10 +70,10 @@ exports.run = {
                ]
             } else if (menuType == 2) {
                client.menu[id] = [
-                  await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix),'© Powered By GILZZ BOT', null, button, {
+                  await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix),'© Powered By NARAA BOT', null, button, {
                     document: true
             }, {
-                title: 'ılılılllıılılıllllıılılllıllı\nGILZZ BOT OFFICIAL',
+                title: 'ılılılllıılılıllllıılılllıllı\nNARA BOT OFFICIAL',
                 thumbnail: await Func.fetchBuffer(global.db.setting.cover),
                 fileName: `Berjalan : ${Func.toTime(process.uptime() * 1000)}\nVersion [ 0.0.5 ]`
             }),
@@ -83,7 +83,7 @@ exports.run = {
                ]
             } else if (menuType == 3) {
                client.menu[id] = [
-                  await client.sendTemplateButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '© Powered By GILZZ BOT', buttons, {
+                  await client.sendTemplateButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '© Powered By NARAA BOT', buttons, {
                      document: true,
                      name: '𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱 𝘉𝘰𝘵'
                   }),
@@ -102,7 +102,7 @@ exports.run = {
                ]
             } else if (menuType == 5) {
                client.menu[id] = [
-                  await client.sendTemplateButton(m.chat, await Func.fetchBuffer('./media/video/video.mp4'), await menu(m, readmore, global.db.setting, isPrefix), '© By Powered GILZZ BOT', buttons, {
+                  await client.sendTemplateButton(m.chat, await Func.fetchBuffer('./media/video/video.mp4'), await menu(m, readmore, global.db.setting, isPrefix), '© By Powered NARAA BOT', buttons, {
                      gif: true
                   }),
                   setTimeout(() => {
@@ -111,14 +111,14 @@ exports.run = {
                ]
             } else if (menuType == 6) {
                client.menu[id] = [
-                  await client.sendTemplateButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '© By Powered GILZZ BOT', buttons),
+                  await client.sendTemplateButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '© By Powered NARAA BOT', buttons),
                   setTimeout(() => {
                      delete client.menu[id]
                   }, 180000)
                ]
             } else if (menuType == 7) {
                client.menu[id] = [
-                  await client.sendTemplateButton(m.chat, await Func.fetchBuffer('./media/video/video.mp4'), await menu(m, readmore, global.db.setting, isPrefix), '© By Powered GILZZ BOT', buttons),
+                  await client.sendTemplateButton(m.chat, await Func.fetchBuffer('./media/video/video.mp4'), await menu(m, readmore, global.db.setting, isPrefix), '© By Powered NARAA BOT', buttons),
                   setTimeout(() => {
                      delete client.menu[id]
                   }, 180000)
