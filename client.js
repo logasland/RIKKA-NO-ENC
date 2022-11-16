@@ -142,7 +142,7 @@ const start = async () => {
                 title: 'ılılllıllılllıllıılılllıllılllıllı\n© NARA BOT OFFICIAL',
                 largeThumb: true,
                 thumbnail: pic,
-                url: '',
+                url: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br',
                 
             })
       } else if (gc.action == 'remove') {
@@ -151,7 +151,7 @@ const start = async () => {
                 title: 'ılılllıllılllıllıılılllıllılllıllı\n© NARA BOT OFFICIAL',
                 largeThumb: true,
                 thumbnail: pic,
-                url: '',
+                url: 'https://chat.whatsapp.com/LmqmgVjvHcrBQi5iAMt3Br',
          })
       }
    })
