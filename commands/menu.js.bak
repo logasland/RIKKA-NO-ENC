@@ -24,7 +24,7 @@ exports.run = {
             let buttons = [{
                urlButton: {
                         displayText: `OWNER`,
-                        url: `https://wa.me/62882002088799?text=sewabot+bang`
+                        url: `https://wa.me/6288220924312?text=sewabot+bang`
                      }
                   },
                   {
